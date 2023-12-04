@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    padding: 20px;
+    background-image: url(wat2/utrecht-ho.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 1000px;
+    overflow-y: auto;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-width: 70%;
+}
+
+.received {
+    background-color: #DCF8C6;
+    align-self: flex-start;
+}
+
+.sent {
+    background-color: #DCF2FF;
+    align-self: flex-end;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #3b9456;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #afafaf;
+    border-radius: 8px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
